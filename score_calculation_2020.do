@@ -14,6 +14,10 @@ cd "C:\Users\DELL\Box Sync\Hiring test 2020"
 gen issue=1 if spel_score1!=.
 
 
+// change 2 to new branch
+drop issue if issue==1
+
+
 //this are the data from enum test done on February 2020
 use "hiring_test_2019.dta"
 foreach var in *_*s{
