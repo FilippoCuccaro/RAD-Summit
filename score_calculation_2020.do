@@ -3,8 +3,16 @@
 //    Filippo C - IPA SL
 //==============================================
 
+
+
+
 *cd "C:\Users\FCuccaro\Box Sync\Hiring test 2020"
 cd "C:\Users\DELL\Box Sync\Hiring test 2020"
+
+
+// change to try
+gen issue=1 if spel_score1!=.
+
 
 //this are the data from enum test done on February 2020
 use "hiring_test_2019.dta"
